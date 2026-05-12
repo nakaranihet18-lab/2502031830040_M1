@@ -54,3 +54,25 @@ div h1{
     text-align: right;
     letter-spacing: 30px;
 }
+
+.box{
+    margin: 40px;
+    padding: 40px;
+    border: 40px solid orange;
+    background-color: antiquewhite;
+    background-clip: content-box;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+
+
+}
+.posi div{
+    background-color: brown;
+    width: 100px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+}
