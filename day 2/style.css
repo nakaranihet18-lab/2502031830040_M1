@@ -42,13 +42,15 @@ div h1{
 .font :nth-child(1){
     color: chartreuse;
     background-color: black;
+    word-spacing: 30px;
 
 }
 .font :nth-child(2){
     font-style: italic;
     background-color: aquamarine;
+    text-transform: uppercase;
 }
 .font :nth-child(3){
     text-align: right;
-    background-color: blue;
+    letter-spacing: 30px;
 }
