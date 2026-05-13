@@ -35,8 +35,14 @@ main .main {
     justify-content: center;
     align-items: center;
     background-color: blue;
-    animation: circle 1s;
+    animation: circle 1s infinite;
+    border-radius: 50%;
 
+}
+
+*{
+
+        animation: circle s infinite;
 }
 @keyframes circle{
     0%{
