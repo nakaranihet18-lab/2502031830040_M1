@@ -35,7 +35,17 @@ main .main {
     justify-content: center;
     align-items: center;
     background-color: blue;
+    animation: circle 1s;
 
+}
+@keyframes circle{
+    0%{
+        transform: rotate(0);
+    }
+
+    100%{
+        transform: rotate(360deg);
+    }
 }
 
 .main aside {
